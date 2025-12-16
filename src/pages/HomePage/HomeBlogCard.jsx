@@ -32,7 +32,7 @@ const HomeBlogCard = ({data}) => {
 
   useEffect(()=>{
     fetchUserDetail()
-  },[data.user]])
+  },[data.user])
 
   
   
@@ -57,7 +57,7 @@ const HomeBlogCard = ({data}) => {
             )}
         </ul>
         <div className='flex items-center gap-x-2 mt-auto'>
-          {images.profileImage && <img src={profileImage} alt={user.name} className='w-10 h-10 rounded-full '  onError={(e) => (e.currentTarget.src = DEFAULT_AVATAR)} />}
+          {profileImage && <img src={profileImage} alt={user.name} className='w-10 h-10 rounded-full '  onError={(e) => (e.currentTarget.src = DEFAULT_AVATAR)} />}
           <div className='flex flex-col'>
             <p className='text-zinc-200 font-semibold' >{user.name}</p>
             <p className="text-end text-xs text-zinc-300">{moment(data.$createdAt).format("LL")}</p>
