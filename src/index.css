@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@theme{
+  --color-main: #131315; 
+  --color-section: #1d1d21;
+  --color-btn: #fd366e;
+  --color-btn-hover: #ca2b58;
+  --color-whitesmoke: #f5f5f5;
+
+  --font-pregular: Poppins-Regular;
+  --font-pbold: Poppins-Bold;
+  --font-pmedium: Poppins-Medium;
+  --font-pblack: Poppins-Black;
+  --font-psemibold: Poppins-SemiBold;
+}
+
+body{
+  @apply bg-main text-whitesmoke font-pregular;
+}
+
+/* changes for default text area scrollbar */
+textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #555; /* darker gray */
+  border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+.prose img{
+  @apply mx-auto 
+}
+
+.prose{
+  overflow: hidden;
+}
