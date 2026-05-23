@@ -98,6 +98,6 @@ npm run dev
 
 ## 🌐 Deployment
 
-Deployed on Vercel
+Deployed on Vercel and
 Backend (BaaS) Appwrite
 ---
