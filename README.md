@@ -1,16 +1,103 @@
-# React + Vite
+# Blogify 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blogging platform built with React and Appwrite that allows users to create, publish, and interact with blogs through a modern responsive interface.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- React
+- Tailwind CSS
 
-## React Compiler
+### Backend
+- Appwrite
+  - Authentication
+  - Database
+  - Storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Other Tools
+- React Router
+- Vercel (Deployment)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+### Authentication
+- User registration and login
+- Secure authentication system
+
+### Role-Based Access Control
+#### Authenticated Users
+- Create and manage profiles
+- Write and publish blogs
+- Add comments
+
+#### Guest Users
+- View published blogs
+- Read comments
+
+### Blog Management
+- Create, update, and delete blogs (CRUD)
+- Markdown-based blog editor
+- Image upload and preview
+- Slug-based clean URLs
+
+### Additional Features
+- Protected routes
+- Comment system
+- Search and filter blogs
+- Fully responsive UI
+- Modern dark-themed design
+
+---
+
+## 📚 What I Learned
+
+This project helped me gain hands-on experience with:
+
+- Full-stack application architecture
+- Authentication and authorization
+- Database design
+- Backend integration with Appwrite
+- UI development and responsiveness
+- Deployment workflows
+- Production-level debugging
+
+---
+
+## 🛠️ Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Move into the project directory:
+
+```bash
+cd Blogify-BlogWebsite
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file and add the required environment variables read env_placeholder.txt:
+
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+Deployed on Vercel
+Backend (BaaS) Appwrite
+---
