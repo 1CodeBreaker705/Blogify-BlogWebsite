@@ -1,4 +1,4 @@
-# Blogify 📝
+# Blogify 
 
 A full-stack blogging platform built with React and Appwrite that allows users to create, publish, and interact with blogs through a modern responsive interface.
 
