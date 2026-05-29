@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className="flex items-center gap-x-2">
           <li><NavbarLink to='/' title="Home"/></li>
           <li><NavbarLink to='/about' title="About"/></li>
-          {user?<CustomProfileButton/>:<li><Link to={'/login'} className=' bg-btn px-4 py-1 font-medium rounded hover:bg-btn-hover transition-all duration-300 outline-none cursor-pointer '>Login</Link></li>}
+          {user?<CustomProfileButton/>:<li><Link to={'/login'} className=' border border-btn text-btn px-4 py-1 font-medium rounded hover:bg-btn hover:text-white transition-all duration-300 hover:cursor-pointer'>Login</Link></li>}
         </ul>
       </nav>
     </header>
