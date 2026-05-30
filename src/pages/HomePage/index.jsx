@@ -32,7 +32,7 @@ const HomePage = () => {
                        <GoSearch className="text-xl text-black" />
                        </div>
       </div>
-      <div className=" w-[96%] lg:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-2 auto-rows-fr">
+      <div className=" w-[96%] lg:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-2 auto-rows-fr">
            {
             (filterBlogs && filterBlogs.length>0)?
             filterBlogs.map((curr,i)=>{return <HomeBlogCard data={curr} key={i}/>})
