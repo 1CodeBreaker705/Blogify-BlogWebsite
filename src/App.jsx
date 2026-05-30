@@ -43,7 +43,9 @@ function App() {
             },
           }} 
         />
+        <div className="min-h-screen flex flex-col">
         {!hideLayout && <Navbar/>}
+        <main className="flex-1">  
         <Routes>
           <Route path='/' Component={HomePage}/>
           <Route path='/login' Component={LoginPage}/>
@@ -59,7 +61,9 @@ function App() {
           </Route>
           <Route path='*' Component={ErrorPage}/>
         </Routes>
+        </main> 
         {!hideLayout &&<Footer/>}
+       </div>
       </MainContextProvider>
     </>
   )
