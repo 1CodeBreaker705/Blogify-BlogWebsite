@@ -35,8 +35,8 @@ const AllBlogsPage = () => {
     <>
      <div className="container mx-auto py-10">
         <div className="flex flex-col py-10 bg-black/10 w-full rounded gap-y-4">
-          <div className="w-[95%] lg:w-[80%] mx-auto flex items-center justify-center">
-            <div className="w-[95%] lg:w-1/2 flex items-center justify-center border focus-within:bg-zinc-100 focus-within:border-pink-500/60 focus-within:shadow-md focus-within:shadow-pink-500/40 rounded-3xl px-4 bg-zinc-300 transition-all">
+          <div className="w-[96%] lg:w-[80%] mx-auto flex items-center justify-center">
+            <div className="w-[90%] lg:w-1/2 flex items-center justify-center border focus-within:bg-zinc-100 focus-within:border-pink-500/60 focus-within:shadow-md focus-within:shadow-pink-500/40 rounded-3xl px-4 bg-zinc-300 transition-all">
               <input
                 value={search}
                 onChange={(e)=>setSearch(e.target.value)}
