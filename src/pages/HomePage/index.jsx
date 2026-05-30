@@ -21,7 +21,7 @@ const HomePage = () => {
   return (
     <>
          <div className='w-[96%] lg:w-[80%] mx-auto flex items-center justify-center my-6' >
-                      <div className=" w-[96%] lg:w-1/2 flex items-center justify-center border focus-within:bg-zinc-100 focus-within:border-pink-500/60 focus-within:shadow-md focus-within:shadow-pink-500/40 rounded-3xl px-4 bg-zinc-300 transition-all">
+                      <div className=" w-[95%] lg:w-1/2 flex items-center justify-center border focus-within:bg-zinc-100 focus-within:border-pink-500/60 focus-within:shadow-md focus-within:shadow-pink-500/40 rounded-3xl px-4 bg-zinc-300 transition-all">
                         <input
                           value={search}
                           onChange={(e)=>setSearch(e.target.value)}
